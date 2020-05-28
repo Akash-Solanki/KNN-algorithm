@@ -1,6 +1,6 @@
 # k-nearest-neighbors
 
-Implementation of KNN algorithm in MATLAB
+Implementation of KNN algorithm in python 3
 
 ## Description
 
