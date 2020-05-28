@@ -11,13 +11,13 @@ Implementation of KNN algorithm in MATLAB
 ## Data set format
 
 * MNIST Dataset:
-  *MNIST (Modified National Institute of Standards and Technology) database is a
-  large database for handwritten digits. Download the MNIST files that have been
-  uploaded in moodle. For both train as well as test data the first digit in the ith row
-  is the label (a number in the range 0-9) of the ith sample. The next 784 (28x28)
-  digits in the same row are the values of the pixels of the sample (image). The
-  image is stored in row-major order, so that the first 28 entries of the 784 digits
-  are the pixel values of the first row of the image.
+  * MNIST (Modified National Institute of Standards and Technology) database is a
+   large database for handwritten digits. Download the MNIST files that have been
+   uploaded in moodle. For both train as well as test data the first digit in the ith row
+   is the label (a number in the range 0-9) of the ith sample. The next 784 (28x28)
+   digits in the same row are the values of the pixels of the sample (image). The
+   image is stored in row-major order, so that the first 28 entries of the 784 digits
+   are the pixel values of the first row of the image.
 * Attributes can be integer or real values.
 * List attributes first, and add response as the last parameter in each row.
     * E.g. [4.5, 7, 2.6, "Orange"], where the first 3 numbers are values of attributes and "Orange" is one of the response classes.
