@@ -12,8 +12,8 @@ Implementation of KNN algorithm in MATLAB
 
 * MNIST Dataset:
   * MNIST (Modified National Institute of Standards and Technology) database is a
-   large database for handwritten digits. Download the MNIST files that have been
-   uploaded in moodle. For both train as well as test data the first digit in the ith row
+   large database for handwritten digits. Download the MNIST files. For both train 
+   as well as test data the first digit in the ith row
    is the label (a number in the range 0-9) of the ith sample. The next 784 (28x28)
    digits in the same row are the values of the pixels of the sample (image). The
    image is stored in row-major order, so that the first 28 entries of the 784 digits
